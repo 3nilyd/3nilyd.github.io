@@ -5,7 +5,7 @@
 
 body {
 	
-	background: url(../img/p.jpg) #373c5b no-repeat center top fixed;
+	background: url(../img/p.jpg) #eaeaea no-repeat center top fixed;
 	background-size: cover;
 }
 
@@ -19,5 +19,13 @@ body {
 	background: rgba(0, 0, 0, .9);
 	margin: 40px 65%;
 	padding: 15px;
-	text-align: left;
+	text-align: center;
+	position: fixed;
+}
+.block
+{
+	width: auto;
+	height: 400px;
+	
+	
 }
