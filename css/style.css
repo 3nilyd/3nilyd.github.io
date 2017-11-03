@@ -1,11 +1,23 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
 body {
-    background-color:black;
+	
+	background: url(../img/p.jpg) #eaeaea no-repeat center top fixed;
+	background-size: cover;
 }
 
-.top {
-    margin-top: 250px;
-}
 
-.timer {
-    margin: auto;
+
+.info {
+	color: #FFF;
+	height: auto;
+	display: inline-block;
+	width: 387px;
+	background: rgba(0, 0, 0, .9);
+	margin: 40px 65%;
+	padding: 15px;
+	text-align: left;
 }
