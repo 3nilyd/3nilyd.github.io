@@ -59,6 +59,7 @@ h1 {
 @media all and (max-width: 980px) {
      body { background: #3a4b52; }
      .info {
-    margin: 10px;
+    margin: auto;
+    height: 100%;
     background: rgba(0, 0, 0, .6);
    }
