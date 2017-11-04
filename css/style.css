@@ -23,6 +23,9 @@ a:active {
 a { 
     text-decoration: none;
    } 
+h1 {
+    font-family: 'Press Gothic Pro';
+   }
 .info {
 	display: inline-block;
 	height: auto;
@@ -36,18 +39,15 @@ a {
 	color: #FFF;
     text-align:justify;
 	font: 44.5px 'Press Gothic Pro', sans-serif;
-
 }
 .upperbanner{
 	width: auto;
 	height: 25px;
 }
-
 .lowerbanner
 {
 	width: auto;
 	height: 150px;
-	
 }
 .links{
 	text-align: left;
