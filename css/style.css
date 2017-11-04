@@ -60,6 +60,8 @@ h1 {
      body { background: #3a4b52; }
      .info {
     margin: auto;
-    height: 100%;
+    width: auto;
+    height: auto;
     background: rgba(0, 0, 0, .6);
+    position: absolute;
    }
