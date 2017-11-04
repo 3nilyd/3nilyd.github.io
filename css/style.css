@@ -22,6 +22,7 @@ a:active {
    }
 h1 {
     font-family: 'Press Gothic Pro', sans-serif;
+    font-weight: normal;
    }
 .info {
 	display: inline-block;
@@ -35,7 +36,7 @@ h1 {
 .header {
 	color: #FFF;
     text-align:justify;
-	font: 44.5px 'Press Gothic Pro', sans-serif;
+	font: 45px 'Press Gothic Pro', sans-serif;
 }
 .upperbanner{
 	width: auto;
@@ -47,6 +48,7 @@ h1 {
 	height: 150px;
 }
 .links{
+	font-weight: normal;
 	text-align: left;
 	font: 18px 'Scada', sans-serif;
 }
