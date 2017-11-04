@@ -10,10 +10,7 @@ body {
 	background-size: cover;
 
 }
-@media screen and (max-width: 980px) {
-     body { background: #323242; }
-     
-   }
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -59,3 +56,15 @@ h1 {
 	text-align: left;
 	font: 18px 'Scada', sans-serif;
 }
+@media all and (max-width: 980px) {
+     body { background: #323242; }
+     .info {
+    display: inline-block;
+	height: auto;
+	width: auto;
+	background: rgba(0, 0, 0, .9);
+	margin: 40px 55%;
+	padding: 35px;
+	position: fixed;}
+
+   }
