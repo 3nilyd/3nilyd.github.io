@@ -6,13 +6,13 @@
 }
 
 body {
-	
 	background: url(../img/p.jpg) #323242 no-repeat center top fixed;
 	background-size: cover;
 }
 
 a {
     color: #ffffff;
+    text-decoration: none;
    }
 a:visited {
     color: #ffffff;
@@ -20,11 +20,8 @@ a:visited {
 a:active {
     color: #ffffff;
    }
-a { 
-    text-decoration: none;
-   } 
 h1 {
-    font-family: 'Press Gothic Pro';
+    font-family: 'Press Gothic Pro', sans-serif;
    }
 .info {
 	display: inline-block;
