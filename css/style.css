@@ -6,7 +6,7 @@
 }
 
 body {
-	background: url(../img/p.jpg) #323242 no-repeat center top fixed;
+	background: url(../img/p.jpg) #3a4b52 no-repeat center top fixed;
 	background-size: cover;
 
 }
@@ -57,13 +57,13 @@ h1 {
 	font: 18px 'Scada', sans-serif;
 }
 @media all and (max-width: 980px) {
-     body { background: #323242; }
+     body { background: #3a4b52; }
      .info {
     display: inline-block;
 	height: auto;
 	width: auto;
-	background: rgba(0, 0, 0, .9);
-	margin: 40px 55%;
+	background: rgba(0, 0, 0, .6);
+	margin: 40px;
 	padding: 35px;
 	position: fixed;}
 
