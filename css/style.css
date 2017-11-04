@@ -59,12 +59,6 @@ h1 {
 @media all and (max-width: 980px) {
      body { background: #3a4b52; }
      .info {
-    display: inline-block;
-	height: auto;
-	width: auto;
-	background: rgba(0, 0, 0, .6);
-	margin: 40px;
-	padding: 35px;
-	position: fixed;}
-
+    margin: 10px;
+    background: rgba(0, 0, 0, .6);
    }
