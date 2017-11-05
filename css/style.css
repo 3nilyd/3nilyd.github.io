@@ -61,9 +61,14 @@ h1 {
 @media all and (max-width: 980px) {
      body { background: #3a4b52; }
      .info {
-    margin: auto;
-    width: auto;
-    height: 100%;
     background: rgba(0, 0, 0, .6);
-    position: absolute;
+	height: 100%;
+	width: auto;
+	margin: auto;
+	left: 0; right: 0;
+	position: absolute;
    }
+   .timer {
+   	position: fixed
+   }
+}
