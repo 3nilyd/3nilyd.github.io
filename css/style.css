@@ -30,12 +30,14 @@ h1 {
    }
 .info {
 	display: inline-block;
+	position: fixed;
 	height: auto;
 	width: auto;
 	background: rgba(0, 0, 0, .9);
-	margin: 40px 65%;
+	top: 0; right: 0;
+	margin: 40px;
 	padding: 35px;
-	position: fixed;
+	box-sizing: border-box; 
 }
 .header {
 	color: #FFF;
