@@ -28,14 +28,15 @@ h1 {
     font-family: 'Press Gothic Pro', sans-serif;
     font-weight: normal;
    }
+
 .info {
 	display: inline-block;
 	position: fixed;
 	height: auto;
 	width: auto;
 	background: rgba(0, 0, 0, .9);
-	top: 0; right: 0;
-	margin: 40px;
+	top: 0; left: 0;
+	margin: 40px 65%;
 	padding: 35px;
 	box-sizing: border-box; 
 }
@@ -57,18 +58,15 @@ h1 {
 	font-weight: normal;
 	text-align: left;
 	font: 18px 'Scada', sans-serif;
-}
+}	
+
 @media all and (max-width: 980px) {
      body { background: #3a4b52; }
      .info {
     background: rgba(0, 0, 0, .6);
-	height: 100%;
 	width: auto;
 	margin: auto;
-	left: 0; right: 0;
+	height: 100%;
 	position: absolute;
-   }
-   .timer {
-   	position: fixed
    }
 }
