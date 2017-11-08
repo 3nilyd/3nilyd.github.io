@@ -35,8 +35,8 @@ h1 {
 	height: auto;
 	width: auto;
 	background: rgba(0, 0, 0, .9);
-	top: 0; left: 0;
-	margin: 40px 65%;
+	top: 0; right: 0;
+	margin: 40px;
 	padding: 35px;
 	box-sizing: border-box; 
 }
@@ -61,12 +61,14 @@ h1 {
 }	
 
 @media all and (max-width: 980px) {
-     body { background: #3a4b52; }
+     body { background: #171e21; }
      .info {
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, 0);
+    top: 0; left: 0;
 	width: auto;
-	margin: auto;
+	margin: 20%;
 	height: auto;
 	position: absolute;
+
    }
 }
