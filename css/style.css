@@ -35,8 +35,8 @@ h1 {
 	height: auto;
 	width: auto;
 	background: rgba(0, 0, 0, .9);
-	top: 0; right: 0;
-	margin: 40px;
+	top: 0; left: 0;
+	margin: 40px 65%;
 	padding: 35px;
 	box-sizing: border-box; 
 }
@@ -64,11 +64,9 @@ h1 {
      body { background: #171e21; }
      .info {
     background: rgba(0, 0, 0, 0);
-    top: 0; left: 0;
 	width: auto;
-	margin: 20%;
+	margin: auto;
 	height: auto;
 	position: absolute;
-
    }
 }
